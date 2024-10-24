@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="caixa">
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Login</legend>
+                    <form action="cadastro.html" autocomplete="on">
+                        <p>
+                            <label for="iemail">Email</label>
+                            <input type="email" name="email" id="iemail" placeholder="Exemplo@algumacoisa.com" required size="30">
+                        </p>
+                        <p>
+                            <label for="isenha">Senha</label>
+                            <input type="password" name="senha" id="isenha" maxlength="50" minlength="8" required size="30">
+                        </p>
+                        <p>
+                            <input  type="submit" value="Enviar" class="enviar">
+                            <input type="reset" value="Limpar" class="limpar">
+                        </p>
+                        <p class="esqueceu-senha">
+                            <a href="#">esqueceu sua senha?</a>
+                        </p>
+                    </form>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
