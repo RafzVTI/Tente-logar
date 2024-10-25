@@ -6,56 +6,64 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(25deg, #B7A6F6 2%, whitesmoke, white);
-
-}
-
-main {
+    background-color: #c9d6ff;
+    background-image: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    display: flex;
+    flex-direction: column;
     height: 100vh;
-    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-div.caixa {
-    width: 500px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+div.entrar {
+    border-radius: 30px;
+    background-color: white;
+    padding: 10px;
+    height: 270px;
+    width: 680px;
 }
 
-fieldset {
-    padding: 5px;
-    height: 350px;
-    background-color: whitesmoke;
-}
+div.entrar h1 {
+    padding: 10px 10px 2px 10px;
 
-form  p {
-    font-size: 2em;
-    padding: 25px;
-}
-
-input.enviar  {
-    padding: 2px;
-    font-size: 0.8em;
-    
-}
-
-form input.limpar {
-    padding: 2px;
-    font-size: 0.8em;   
-}
-p.esqueceu-senha {
-    text-align: right;
 }
 
 a {
-   text-decoration: none;
-   color: #816ec5 ; 
-   font-size: 15px;
-   
+    text-decoration: none;
+    font-size: 14px;
+    color: #8264ec;
+    text-align: right;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+div.entrar button {
+    border-radius: 8px;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+    border: 1px solid transparent;
+    color: white;
+    background-color: purple;
+    height: 37px;
+}
+
+
+
+label {
+    font-size: 20px;
+    padding-left: 0px;
+}
+
+input {
+    border: none;
+    background-color: lightgrey;
+    border-radius: 8px;
+    padding: 5px;
+    height: 20px;
+    margin: 10px;
 }

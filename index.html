@@ -3,33 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de login</title>
+    <title>Login page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
-        <div class="caixa">
-            <form action="" method="post">
-                <fieldset>
-                    <legend>Login</legend>
-                    <form action="cadastro.html" autocomplete="on">
-                        <p>
-                            <label for="iemail">Email</label>
-                            <input type="email" name="email" id="iemail" placeholder="Exemplo@algumacoisa.com" required size="30">
-                        </p>
-                        <p>
-                            <label for="isenha">Senha</label>
-                            <input type="password" name="senha" id="isenha" maxlength="50" minlength="8" required size="30">
-                        </p>
-                        <p>
-                            <input  type="submit" value="Enviar" class="enviar">
-                            <input type="reset" value="Limpar" class="limpar">
-                        </p>
-                        <p class="esqueceu-senha">
-                            <a href="#">esqueceu sua senha?</a>
-                        </p>
-                    </form>
-                </fieldset>
+        <div class="entrar">
+            <form method="post">
+                <h1>Entrar</h1>
+                <label for="iemail">Email</label>
+                <input type="email" name="email" id="iemail" placeholder="Exemplo@algumacoisa.com" size="30">
+                <label for="isenha">Senha</label>
+                <input type="password" name="senha" id="isenha" placeholder="Senha" minlength="8" maxlength="20">
+                <a href="#"><p>Esqueceu sua senha?</p></a><br>
+                <button>Entrar</button>
             </form>
         </div>
     </main>
